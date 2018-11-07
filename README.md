@@ -1,14 +1,32 @@
 # \#GoWeek
 
-Repositório com sistemas web e mobile que listam, criam e permitem dar likes em tweets.
+Repositório com sistemas web e mobile que listam, criam e permitem dar likes em tweets com atualizações em tempo real.
 
 ---
 
-## Sistema backend
+## Sistema backend (API)
 
 ### Stack:
 
  - Node
  - Express
- - React
  - MongoDb
+
+### Bibliotecas usadas:
+
+ - Mongoose
+ - Socket.io
+ - Cors
+ - Nodemon
+
+## Sistema frontend
+
+### Stack:
+
+ - React
+
+### Bibliotecas usadas:
+
+ - Axios
+ - React-router-dom
+ - Socket.io-client
